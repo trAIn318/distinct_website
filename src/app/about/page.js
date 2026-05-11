@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import TeamCard from "../../components/TeamCard";
 
 export const metadata = {
   title: "About | Distinct Hospitality Solutions",
@@ -28,50 +29,27 @@ export default function About() {
           </h2>
 
           <div className={styles.teamGrid}>
-            <article className={styles.teamCard}>
-              <div className={styles.teamImageWrapper}>
-                <img src="/img/Veronica.png" alt="Veronica Straw — Founder & CEO" className={styles.teamImage} loading="lazy" />
-              </div>
-              <h3 className={styles.teamName}>Veronica Straw</h3>
-              <span className={styles.teamRole}>Founder &amp; CEO</span>
-              <p className={styles.teamBio}>
-                Nearly two decades building, turning around, and leading hospitality operations across the USA, Latin America, and Southeast Asia. Veronica founded Distinct because she spent twenty years watching great talent get wasted by bad systems.
-              </p>
-              <a href="mailto:Veronica@distincthospitalitysolutions.com" className={styles.teamEmail}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                Veronica@distincthospitalitysolutions.com
-              </a>
-            </article>
-
-            <article className={styles.teamCard}>
-              <div className={styles.teamImageWrapper}>
-                <img src="/img/Luznedy.png" alt="Luznedy Gomez — CTO" className={styles.teamImage} loading="lazy" />
-              </div>
-              <h3 className={styles.teamName}>Luznedy Gomez</h3>
-              <span className={styles.teamRole}>CTO</span>
-              <p className={styles.teamBio}>
-                The technical architecture behind Distinct&apos;s platform. Building the infrastructure that makes real-time intelligence possible at scale.
-              </p>
-              <a href="mailto:Luznedy@traindistinct.com" className={styles.teamEmail}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                Luznedy@traindistinct.com
-              </a>
-            </article>
-
-            <article className={styles.teamCard}>
-              <div className={styles.teamImageWrapper}>
-                <img src="/img/Hugo.png" alt="Hugo F. — CDO & Chief Data Science Officer" className={styles.teamImage} loading="lazy" />
-              </div>
-              <h3 className={styles.teamName}>Hugo F.</h3>
-              <span className={styles.teamRole}>CDO &amp; Chief Data Science Officer</span>
-              <p className={styles.teamBio}>
-                The intelligence layer. Hugo owns the data models, KPI frameworks, and the system that turns every ARIA conversation into performance insight.
-              </p>
-              <a href="mailto:Hugo@traindistinct.com" className={styles.teamEmail}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                Hugo@traindistinct.com
-              </a>
-            </article>
+            <TeamCard 
+              image="/img/Veronica.png"
+              name="Veronica Straw"
+              role="Founder & CEO"
+              email="Veronica@distincthospitalitysolutions.com"
+              bio="Nearly two decades building, turning around, and leading hospitality operations across the USA, Latin America, and Southeast Asia. Veronica founded Distinct because she spent twenty years watching great talent get wasted by bad systems."
+            />
+            <TeamCard 
+              image="/img/Luznedy.png"
+              name="Luznedy Gomez"
+              role="CTO"
+              email="Luznedy@traindistinct.com"
+              bio="The technical architecture behind Distinct's platform. Building the infrastructure that makes real-time intelligence possible at scale."
+            />
+            <TeamCard 
+              image="/img/Hugo.png"
+              name="Hugo F."
+              role="CDO & Chief Data Science Officer"
+              email="Hugo@traindistinct.com"
+              bio="The intelligence layer. Hugo owns the data models, KPI frameworks, and the system that turns every ARIA conversation into performance insight."
+            />
           </div>
         </div>
       </section>

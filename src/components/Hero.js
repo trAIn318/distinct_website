@@ -39,8 +39,8 @@ export default function Hero() {
         <div className={styles.heroRight}>
           <div className={styles.heroImageWrapper}>
             <Image
-              src="/img/hero.png"
-              alt="Hospitality excellence"
+              src="/img/hero_mockup.png"
+              alt="Distinct Login App Mockup"
               fill
               className={styles.heroImage}
               priority
