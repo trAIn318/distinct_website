@@ -76,10 +76,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className={styles.bottomBar}>
           <span className={styles.copyright}>
-            Copyright © 2026 Distinct Hospitality Solutions - All Rights Reserved.
-          </span>
-          <span className={styles.copyright}>
-            © 2026 Distinct Hospitality Solutions LLC
+            © 2026 Distinct Hospitality Solutions LLC — All Rights Reserved.
           </span>
         </div>
       </div>

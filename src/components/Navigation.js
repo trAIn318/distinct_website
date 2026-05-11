@@ -33,9 +33,11 @@ export default function Navigation() {
 
   const navLinks = [
     { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
     { label: "Products", href: "/products" },
+    { label: "About", href: "/about" },
   ];
+
+  const ariaLink = { label: "Meet ARIA", href: "https://aria-distinct.onrender.com", external: true };
 
   return (
     <header className={styles.nav}>
@@ -65,12 +67,22 @@ export default function Navigation() {
               </Link>
             );
           })}
-          <a
-            href="mailto:DEMO@distincthospitalitysolutions.com"
-            className="btn-primary"
-          >
-            Book a Demo
-          </a>
+          <div className={styles.actionGroup}>
+            <a
+              href={ariaLink.href}
+              className="btn-white"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {ariaLink.label}
+            </a>
+            <a
+              href="mailto:info@distincthospitalitysolutions.com"
+              className="btn-primary"
+            >
+              Book a Demo
+            </a>
+          </div>
         </nav>
 
         {/* Mobile Menu Toggle Button */}
@@ -102,13 +114,24 @@ export default function Navigation() {
               </Link>
             );
           })}
-          <a
-            href="mailto:DEMO@distincthospitalitysolutions.com"
-            className="btn-primary"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Book a Demo
-          </a>
+          <div className={styles.mobileActionGroup}>
+            <a
+              href={ariaLink.href}
+              className="btn-white"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {ariaLink.label}
+            </a>
+            <a
+              href="mailto:info@distincthospitalitysolutions.com"
+              className="btn-primary"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Book a Demo
+            </a>
+          </div>
         </nav>
       </div>
     </header>

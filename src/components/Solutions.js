@@ -5,8 +5,9 @@ export default function Solutions() {
   return (
     <section className={styles.section} aria-labelledby="solutions-heading">
       <div className="container">
+        <span className={styles.sectionLabel}>From Miami to the World</span>
         <h2 id="solutions-heading" className={styles.sectionHeadline}>
-          Distinct Solutions by industry
+          Built for Every Corner of Hospitality.
         </h2>
 
         <div className={styles.grid}>
@@ -17,10 +18,10 @@ export default function Solutions() {
             </div>
             <div className={styles.cardContent}>
               <div className={styles.eyebrow}><TrainWord /> + GUESTSIGHT</div>
-              <h3 className={styles.cardTitle}>Hotels Bars and Restaurants</h3>
-              <p className={styles.tagline}>measurable performance, real revenue results</p>
+              <h3 className={styles.cardTitle}>Hotels, Bars &amp; Restaurants</h3>
+              <p className={styles.tagline}>Measurable performance. Real revenue results.</p>
               <div className={styles.ctaWrapper}>
-                <a href="tel:+13055481826" className="btn-ghost">
+                <a href="mailto:info@distincthospitalitysolutions.com" className="btn-ghost">
                   Book a discovery call
                 </a>
               </div>
@@ -35,10 +36,10 @@ export default function Solutions() {
             <div className={styles.cardContent}>
               <div className={styles.eyebrow}>BESPOKE / CONCIERGE</div>
               <h3 className={styles.cardTitle}>Private Clients</h3>
-              <p className={styles.tagline}>Bespoke workforce solutions for discerning operations</p>
+              <p className={styles.tagline}>Workforce intelligence for discerning operations. Designed around your standards, your people, your brand.</p>
               <div className={styles.ctaWrapper}>
-                <a href="mailto:team@distincthospitalitysolutions.com" className="btn-ghost">
-                  submit an inquiry
+                <a href="mailto:info@distincthospitalitysolutions.com" className="btn-ghost">
+                  Submit an inquiry
                 </a>
               </div>
             </div>
@@ -52,10 +53,10 @@ export default function Solutions() {
             <div className={styles.cardContent}>
               <div className={styles.eyebrow} aria-hidden="true"></div>
               <h3 className={styles.cardTitle}>Residential</h3>
-              <p className={styles.tagline}>Compliance, alignment, and scalable culture across every floor</p>
+              <p className={styles.tagline}>Compliance, culture, and consistent excellence across every floor.</p>
               <div className={styles.ctaWrapper}>
-                <a href="mailto:info@traindistinct.com" className="btn-ghost">
-                  join the waitlist
+                <a href="mailto:info@distincthospitalitysolutions.com" className="btn-ghost">
+                  Join the waitlist
                 </a>
               </div>
             </div>

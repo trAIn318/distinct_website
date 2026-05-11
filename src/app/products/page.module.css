@@ -10,12 +10,11 @@
 .hero {
   padding: var(--space-8) 0;
   text-align: center;
-  border-bottom: 1px solid var(--color-platinum);
 }
 
 .heroH1 {
   font-family: var(--font-display);
-  font-size: var(--text-3xl);
+  font-size: var(--text-2xl);
   line-height: 1.1;
   margin-bottom: var(--space-4);
   color: var(--color-ivory);
@@ -32,14 +31,13 @@
 }
 
 .heroSubLabel {
-  font-size: var(--text-lg);
+  font-size: var(--text-base);
   color: var(--color-smoke);
 }
 
 /* Product Blocks */
 .productBlock {
   padding: var(--space-12) 0;
-  border-bottom: 1px solid var(--color-platinum);
 }
 
 .productBlock:nth-child(even) {
@@ -47,8 +45,6 @@
 }
 
 .videoSectionDark {
-  border-top: 1px solid var(--color-platinum);
-  border-bottom: 1px solid var(--color-platinum);
 }
 
 .productGrid {
@@ -80,6 +76,10 @@
   box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4);
   border: 1px solid var(--color-platinum);
   aspect-ratio: 4 / 3;
+}
+
+.ariaImageWrapper {
+  aspect-ratio: auto;
 }
 
 .image {
@@ -122,7 +122,7 @@
 
 .bulletItem {
   position: relative;
-  padding-left: var(--space-4);
+  padding-left: var(--space-5);
   margin-bottom: var(--space-2);
   font-size: var(--text-base);
   color: var(--color-smoke);
@@ -235,7 +235,7 @@
 
 @media (max-width: 768px) {
   .heroH1 {
-    font-size: var(--text-2xl);
+    font-size: var(--text-xl);
   }
 
   .modulesGrid {

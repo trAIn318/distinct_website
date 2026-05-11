@@ -4,28 +4,29 @@ export default function ProblemApproach() {
   return (
     <section className={styles.section} aria-labelledby="problem-approach-heading">
       <div className="container">
+        <span className={styles.sectionLabel}>The Real Cost of Inconsistency</span>
         <h2 id="problem-approach-heading" className={styles.sectionHeadline}>
-          Training Doesn&apos;t Fail. Measurement Does
+          Training Doesn&apos;t Fail. Measurement Does.
         </h2>
         
         <div className={styles.grid}>
           {/* Problem Block (~61.8%) */}
           <div className={styles.problemColumn}>
             <h3 className={styles.blockHeadline}>
-              Most hospitality businesses invest in training, but can&apos;t answer:
+              Every hotel, restaurant, and private club invests in training. Most can&apos;t answer three questions:
             </h3>
             <ul className={styles.problemList}>
               <li className={styles.problemItem}>
-                Did it increase sales in the distinct hospitality sector?
+                Did training increase revenue?
               </li>
               <li className={styles.problemItem}>
-                Which behaviors in front of house operations actually drive revenue?
+                Which behaviors drive guest satisfaction?
               </li>
               <li className={styles.problemItem}>
-                Who are your top performers, and why?
+                Who are your top performers and what makes them different?
               </li>
               <li className={styles.problemItem}>
-                Without data, training in hospitality experts can become a cost center.
+                Without data, you&apos;re investing in hope.
               </li>
             </ul>
           </div>
@@ -36,11 +37,11 @@ export default function ProblemApproach() {
               Our Approach — A Performance System. Not Just Training
             </h3>
             <p className={styles.approachBody}>
-              Distinct connects training directly to real-world results. We track what your team does, measure what matters, and show you exactly how performance impacts revenue.
+              Without that intelligence, training is a cost center. With Distinct, it becomes a competitive advantage.
             </p>
             <div>
               <a
-                href="mailto:INFO@DISTINCTHOSPITALITYSOLUTIONS.COM"
+                href="mailto:info@distincthospitalitysolutions.com"
                 className="btn-primary"
               >
                 Get Started

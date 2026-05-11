@@ -5,14 +5,14 @@ const VIDEO_POSTER_URL = "/video/demo_main_poster.jpg";
 const VIDEO_SRC_URL = "/video/demo_main.mp4";
 
 export default function VideoSection({
-  label = "TRAiN REDUCES ONBOARDING TIME",
+  label = "trAIn REDUCES ONBOARDING TIME",
   className = "",
   background = "charcoal",
 }) {
   // Helper to render label with branded TrainWord
   const renderLabel = (text) => {
     if (typeof text !== 'string') return text;
-    const parts = text.split("TRAiN");
+    const parts = text.split("trAIn");
     if (parts.length === 1) return text;
     
     return parts.reduce((acc, part, i) => {

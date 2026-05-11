@@ -8,7 +8,7 @@ export default function HowItWorks() {
         <header className={styles.header}>
           <span className={styles.eyebrow}>HOW IT WORKS</span>
           <h2 id="how-it-works-heading" className={styles.headline}>
-            <TrainWord />{" "}→ Track → Analyze → Increase Revenue
+            <TrainWord />{" "}→ Track → Analyze → Grow
           </h2>
         </header>
 
@@ -19,9 +19,9 @@ export default function HowItWorks() {
               <img src="/img/step_train.png" alt="Bartender training on a tablet" className={styles.image} loading="lazy" />
             </div>
             <span className={styles.stepNumber}>Step 1</span>
-            <h3 className={styles.stepTitle}>Train</h3>
+            <h3 className={styles.stepTitle}><TrainWord /></h3>
             <p className={styles.stepBody}>
-              AI-powered, role-specific training for servers, hosts, bartenders, and managers
+              Your standards. Every employee. Every shift. AI-powered, role-specific microlearning your team completes on any device, in any language. ARIA — our intelligent coaching agent — guides every session.
             </p>
           </article>
 
@@ -32,14 +32,9 @@ export default function HowItWorks() {
             </div>
             <span className={styles.stepNumber}>Step 2</span>
             <h3 className={styles.stepTitle}>Track</h3>
-            <div className={styles.stepBody}>
-              Capture real-world behaviors:
-              <ul className={styles.bulletList}>
-                <li className={styles.bulletItem}>Greeting time</li>
-                <li className={styles.bulletItem}>Upselling activity</li>
-                <li className={styles.bulletItem}>Guest recovery actions</li>
-              </ul>
-            </div>
+            <p className={styles.stepBody}>
+              Behavior connects to results. Capture what actually happens on the floor: upsell conversions, greeting standards, service recovery actions, guest interaction quality. Real data from real shifts.
+            </p>
           </article>
 
           {/* Step 3 */}
@@ -49,14 +44,9 @@ export default function HowItWorks() {
             </div>
             <span className={styles.stepNumber}>Step 3</span>
             <h3 className={styles.stepTitle}>Analyze</h3>
-            <div className={styles.stepBody}>
-              <p>Connect behavior to GUESTSIGHT, which:</p>
-              <ul className={styles.bulletList}>
-                <li className={styles.bulletItem}>Surfaces guest sentiment in real time</li>
-                <li className={styles.bulletItem}>Check averages</li>
-                <li className={styles.bulletItem}>Guest satisfaction</li>
-              </ul>
-            </div>
+            <p className={styles.stepBody}>
+              Know what your guests feel before they post it. GuestSight surfaces sentiment in real time — by shift, by department, by employee. Act while the guest is still in the building. Turn a complaint into a loyal return.
+            </p>
           </article>
 
           {/* Step 4 */}
@@ -65,12 +55,10 @@ export default function HowItWorks() {
               <img src="/img/step_optimize.png" alt="Restaurant manager coaching staff" className={styles.image} loading="lazy" />
             </div>
             <span className={styles.stepNumber}>Step 4</span>
-            <h3 className={styles.stepTitle}>Optimize</h3>
-            <div className={styles.stepBody}>
-              <p>
-                Deliver real-time feedback and continuously improve performance through our AI-powered coaching engine.
-              </p>
-            </div>
+            <h3 className={styles.stepTitle}>Grow</h3>
+            <p className={styles.stepBody}>
+              Performance becomes revenue. Connect training completion to sales per cover, average check, upsell rate, and tip percentage. See exactly where your investment went and who it moved.
+            </p>
           </article>
         </div>
       </div>

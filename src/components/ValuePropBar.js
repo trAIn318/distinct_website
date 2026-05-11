@@ -8,7 +8,7 @@ export default function ValuePropBar() {
           Turn Staff Training Into Measurable Revenue Growth
         </h2>
         <a
-          href="mailto:INFO@DISTINCTHOSPITALITYSOLUTIONS.COM"
+          href="mailto:info@distincthospitalitysolutions.com"
           className="btn-ghost"
         >
           Get in Touch

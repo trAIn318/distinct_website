@@ -47,14 +47,14 @@ export default function ContactForm() {
     <section className={styles.section} aria-labelledby="contact-heading">
       <div className="container">
         <h2 id="contact-heading" className={styles.headline}>
-          Contact Us — Let&apos;s Talk
+          Let&apos;s Talk.
         </h2>
 
         <div className={styles.grid}>
           {/* Sidebar */}
           <div className={styles.sidebar}>
             <p className={styles.sidebarCopy}>
-              Whether you&apos;re a hotel operator, investor, or potential partner in the distinct hospitality solutions sector, we want to hear from you and collaborate on enhancing front of house operations with our hospitality experts.
+              Whether you&apos;re a hotel operator, investor, or potential partner — we want to hear from you. Distinct moves fast and so do we.
             </p>
             <a
               href="https://wa.me/13055481826"
